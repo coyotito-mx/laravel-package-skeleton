@@ -36,4 +36,3 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 ## License
 
 Please see [LICENSE.md](LICENSE.md) for details.
-```
