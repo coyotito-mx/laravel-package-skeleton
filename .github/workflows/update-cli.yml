@@ -102,6 +102,11 @@ jobs:
           # Ensure new binary is executable (best-effort)
           chmod +x ./skeleton || true
 
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+
       - name: Get CLI versions
         id: cli-versions
         shell: bash
