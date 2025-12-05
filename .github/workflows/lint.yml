@@ -1,11 +1,13 @@
 name: Ensure code quality
 
 on:
+  push:
+    branches: [dev, main]
   pull_request:
-    branches: [dev]
+    branches: [dev, main]
 
 jobs:
-  tests:
+  quality:
     runs-on: ubuntu-latest
 
     steps:
