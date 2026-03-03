@@ -1,8 +1,7 @@
 {
     "name": "{{namespace|slug,reverse}}",
     "description": "{{description}}",
-    "type": "{{type}}",
-    "license": "{{license}}",
+    "license": "{{license|acronym}}",
     "require": {
         "php": "^8.4"
     },
@@ -68,6 +67,5 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "minimum-stability": "{{minimum-stability}}",
     "prefer-stable": true
 }
