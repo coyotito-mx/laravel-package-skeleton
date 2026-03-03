@@ -9,7 +9,7 @@ namespace {{namespace}};
  *
  * @package {{namespace}}
  */
-class {{package|title}}
+class {{class}}
 {
     /**
      * Example method

@@ -15,9 +15,9 @@ composer require {{namespace|slug,reverse}}
 ## Usage
 
 ```php
-use {{namespace}}\Foo;
+use {{namespace}}\{{class}};
 
-$instance = new Foo();
+$instance = new {{class}}();
 $instance->doSomething();
 ```
 

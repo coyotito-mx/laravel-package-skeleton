@@ -11,10 +11,10 @@ use Illuminate\Support\Facades\Facade;
  *
  * @package {{namespace}}\Facades
  */
-class {{package|title}} extends Facade
+class {{class}} extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'testing';
+        return '{{class|filename}}';
     }
 }

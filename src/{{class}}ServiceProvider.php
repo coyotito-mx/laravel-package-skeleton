@@ -6,14 +6,14 @@ namespace {{namespace}};
 
 use Illuminate\Support\ServiceProvider;
 
-class {{package|title}}ServiceProvider extends ServiceProvider
+class {{class}}ServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
      */
     public function register(): void
     {
-        $this->app->bind('testing', fn () => new {{package|title}}());
+        $this->app->bind('testing', fn () => new {{class}}());
     }
 
     /**
