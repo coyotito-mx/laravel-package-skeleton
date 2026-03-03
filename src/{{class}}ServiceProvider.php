@@ -13,7 +13,7 @@ class {{class}}ServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->bind('testing', fn () => new {{class}}());
+        $this->app->bind('{{class|filename}}', fn () => new {{class}}());
     }
 
     /**
