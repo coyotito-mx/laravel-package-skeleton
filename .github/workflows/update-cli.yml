@@ -99,6 +99,9 @@ jobs:
           # Extract file
           tar -xf asset.tar.gz
 
+          # Remove archive
+          rm -f asset.tar.gz
+
           # Ensure binary is executable (best-effort)
           chmod +x ./skeleton || true
 
